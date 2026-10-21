@@ -4,11 +4,11 @@
 
 import pandas as pd
 import streamlit as st
-from snowflake.snowpark.context import get_active_session
 import altair as alt
 
 # Get the Current Credentials
-session = get_active_session()
+conn = st.connection("snowflake")
+session = conn.session()
 
 # Streamlit App
 st.title(":snowflake: Tasty Bytes Streamlit App :snowflake:")
