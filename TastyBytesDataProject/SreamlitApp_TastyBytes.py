@@ -1,5 +1,5 @@
-# This is a simple Streamlit app that demonstrates how to use Snowpark for Python to query data from Snowflake and visualize it using Altair.
-# It uses a fictitious dataset of food truck sales from Tasty Bytes, a global food truck network and allows users to filter the data by city 
+# This is a simple Streamlit app that demonstrates how to use Snowpark for Python to query data from Snowflake backend and visualize it using Altair 
+# directly from streamlit.io(open source streamlit). It uses a fictitious dataset of food truck sales from Tasty Bytes, a global food truck network and allows users to filter the data by city 
 # and date range using Streamlit widgets. The app also displays the raw data and the SQL query used to retrieve the data.
 
 import pandas as pd
